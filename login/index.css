@@ -1,0 +1,285 @@
+
+@media screen and (min-width: 580px) {
+	body {
+		background-image: url(https://www.hualigs.cn/image/603f62eb5a190.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	#box {
+		width: 500px;
+		height: 400px;
+		background-color: rgba(0, 0, 0, 0.3);
+		position: absolute;
+		left: 50%;
+		top: 20%;
+		margin-left: -250px;
+		border-radius: 10px;
+	}
+
+	#box table thead h1 {
+		color: #fff;
+		font-size: 28px;
+		font-weight: 300;
+	}
+
+	.hr {
+		width: 100%;
+		height: 1px;
+		background-color: #ccc;
+	}
+
+	input {
+		margin-top: 10px;
+	}
+
+	.phone {
+		width: 340px;
+		height: 35px;
+		padding-left: 20px;
+		border-radius: 100px;
+		background-color: #eee;
+		border: 1px solid transparent;
+		outline: none;
+		font-size: 16px;
+	}
+
+	.pw {
+		width: 340px;
+		height: 35px;
+		padding-left: 20px;
+		background-color: #eee;
+		border-radius: 100px;
+		border: 1px solid transparent;
+		outline: none;
+		font-size: 16px;
+	}
+
+	.yzm {
+		width: 170px;
+		height: 35px;
+		padding-left: 20px;
+		background-color: #eee;
+		border-radius: 20px 0 0 20px;
+		border: 1px solid transparent;
+		outline: none;
+		font-size: 16px;
+	}
+
+	.yzm_bth {
+		width: 170px;
+		height: 39px;
+		background-color: #eee;
+		outline: none;
+		border: 1px solid transparent;
+		border-radius: 0 20px 20px 0;
+		-webkit-border-radius: 0 20px 20px 0;
+		margin-top: 0.5px;
+		-webkit-margin-top: 0.5px;
+	}
+
+	.yzm_bth:hover {
+		background-color: #5d93d7;
+		transition: 0.7s;
+		cursor: pointer;
+	}
+
+	.checkbox {
+		width: 25px;
+		height: 25px;
+		background-color: #00b8ef;
+		border: solid 1px #dddddd;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		font-size: 0.8rem;
+		outline: none;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		cursor: default;
+		-webkit-appearance: none;
+		-webkit-user-select: none;
+	}
+
+	.checkbox:checked::after {
+		content: '';
+		top: 5px;
+		left: 5px;
+		position: absolute;
+		background: transparent;
+		border: #fff solid 2px;
+		border-top: none;
+		border-right: none;
+		height: 5px;
+		width: 10px;
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+	.remember {
+		color: #fff;
+	}
+
+	.submit {
+		width: 362px;
+		height: 39px;
+		background-color: #01b1f0;
+		border-radius: 100px;
+		border: 1px solid transparent;
+		outline: none;
+		font-size: 16px;
+		color: #ffffff;
+	}
+
+	.submit:hover {
+		background-color: #5d93d7;
+		transition: 0.7s;
+	}
+
+}
+
+@media screen and (max-width:580px) {
+	body {
+		background-image: url(https://ae01.alicdn.com/kf/Ucdeae74a10804e1ba4b9e340ab0d9380n.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	#box {
+		width: 100%;
+		height: 360px;
+		background-color: rgba(0, 0, 0, 0.3);
+		border-radius: 10px;
+		margin: 0 auto;
+		margin-top: 20%;
+	}
+
+	#box table thead h1 {
+		color: #fff;
+		font-size: 28px;
+		font-weight: 300;
+	}
+
+	.hr {
+		width: 100%;
+		height: 1px;
+		background-color: #ccc;
+	}
+
+	input {
+		margin-top: 10px;
+	}
+
+	.phone {
+		width: 240px;
+		height: 35px;
+		padding-left: 20px;
+		border-radius: 5px;
+		background-color: #eee;
+		border: 1px solid transparent;
+		outline: none;
+		font-size: 16px;
+	}
+
+	.pw {
+		width: 240px;
+		height: 35px;
+		padding-left: 20px;
+		background-color: #eee;
+		border-radius: 5px;
+		border: 1px solid transparent;
+		outline: none;
+		font-size: 16px;
+	}
+
+	.yzm {
+		width: 140px;
+		height: 35px;
+		padding-left: 20px;
+		background-color: #eee;
+		border-radius: 5px 0 0 5px;
+		-webkit-border-radius: 5px 0 0 5px;
+		border: 1px solid transparent;
+		outline: none;
+		font-size: 16px;
+	}
+
+	.yzm_bth {
+		width: 95px;
+		height: 39px;
+		outline: none;
+		margin-left: 5px;
+		background-color: #eee;
+		border: 1px solid transparent;
+		border-radius: 0 5px 5px 0;
+		-webkit-border-radius: 0 5px 5px 0;
+	}
+
+	.yzm_bth:hover {
+		background-color: #5d93d7;
+		transition: 0.7s;
+		cursor: pointer;
+	}
+
+	.checkbox {
+		width: 25px;
+		height: 25px;
+		background-color: #00b8ef;
+		border: solid 1px #dddddd;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		font-size: 0.8rem;
+		outline: none;
+		margin: 0;
+		padding: 0;
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		cursor: default;
+		-webkit-appearance: none;
+		-webkit-user-select: none;
+	}
+
+	.checkbox:checked::after {
+		content: '';
+		top: 5px;
+		left: 5px;
+		position: absolute;
+		background: transparent;
+		border: #fff solid 2px;
+		border-top: none;
+		border-right: none;
+		height: 5px;
+		width: 10px;
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-webkit-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+	.remember {
+		color: #fff;
+	}
+
+	.submit {
+		width: 262px;
+		height: 35px;
+		background-color: #dba8ad;
+		border-radius: 5px;
+		border: 1px solid transparent;
+		outline: none;
+		font-size: 16px;
+		color: #ffffff;
+	}
+
+	.submit:hover {
+		background-color: #5d93d7;
+		transition: 0.7s;
+	}
+}
